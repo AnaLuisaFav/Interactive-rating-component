@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+body {
+	background-color: hsl(216, 12%, 8%);
+	font-family: 'Overpass', sans-serif;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container {
+	border-radius: 20px;
+	width: 285px;
+	background-color: #181f28;
+	padding: 30px;
+}
+
+.parte-2 {
+	text-align: center;
+	display: none;
+}
+
+.texto-1 p, .texto-2 p, .nota {
+	color: hsl(216, 12%, 54%);
+	font-size: 0.9em
+}
+
+.nota {
+	display: flex;
+	justify-content: space-between;
+}
+
+.star {
+	background-image: url(img/icon-star.svg);
+}
+
+.circle {
+	width: 20px; 
+	height: 20px;
+	border-radius: 30px;
+	padding: 10px 10px;
+	background-position: center;
+	background-color: hsl(213, 19%, 18%);
+	background-repeat: no-repeat;
+}
+
+.nota > div {
+	text-align: center;
+	line-height: 22px;
+}
+
+.circle:hover {
+	background-color: hsl(25, 97%, 53%);
+	cursor: pointer;
+	color: white;
+}
+
+.selecionado {
+	background-color: hsl(217, 12%, 63%);
+	color: white;
+}
+
+.selecionado:hover {
+	background-color: hsl(217, 12%, 63%);
+	color: white;
+}
+
+.botao {
+	padding-top: 9px;
+	padding-bottom: 7px;
+	margin-top: 20px;
+	text-align: center;
+	border-radius: 30px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 0.9em;
+	background-color: hsl(25, 97%, 53%);
+}
+
+.botao:hover {
+	color: hsl(25, 97%, 53%);
+	background-color: white;
+	cursor: pointer;
+}
+
+.cel img {
+	width: 130px;
+	margin-bottom: 20px;
+}
+
+.selected {
+	width: 150px;
+	border-radius: 15px;
+	background-color: hsl(213, 19%, 18%);
+	color: hsl(25deg 64.74% 62.03%);
+	padding-top: 5px;
+	padding-bottom: 4px;
+	font-size: 0.8em;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.texto-2 h1 {
+	font-size: 1.3em;
+	margin-top: 25px;
+}
+
+.botao p, .texto-2 p, .selected p {
+	margin: 0px;
+	font-size: 0.9em;
+}
+
+footer {
+	font-size: 0.8em;
+	position: fixed;
+	padding: 5px 0px;
+	bottom: 0px;
+	width: 100%;
+	text-align: center; 
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: hsl(25, 97%, 53%);
+}
