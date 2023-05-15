@@ -12,7 +12,7 @@
 *<h1>Pré-visualização</h1>Preview*
 
 <div align='center'>
-
+<img src='image.png' alt='site preview'>
 </div>
 
 <br>
