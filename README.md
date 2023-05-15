@@ -28,9 +28,22 @@
 
 *<h1>Sobre</h1>About*
 
-Mais um desafio utilizando JavaScript 😍😍
+<img src="https://github.com/AnaLuisaFav/Interactive-rating-component/assets/125583157/2ae8d39b-cd3b-4e51-9697-a889efe168f3" alt="image" style="width: 20px"> O desafio é construir esse componente de classificação interativa e deixá-lo o mais próximo possível do design.
 
-One more challenge using JavaScript 😍😍
+Os usuários devem ser capazes de:
+
+• Selecionar e enviar uma classificação numérica<br>
+• Ver o estado do cartão de "obrigado" depois de enviar uma avaliação<br>
+• Ver os estados de hover e foco para todos os elementos interativos na página<br>
+
+<img src="https://github.com/AnaLuisaFav/Interactive-rating-component/assets/125583157/7829887e-fb45-4d07-973d-0b4b20dac189" alt="image" style="width: 20px">
+The challenge is to build out this interactive rating component and get it looking as close to the design as possible.
+
+The users should be able to:
+
+• Select and submit a number rating<br>
+• See the "Thank you" card state after submitting a rating<br>
+• See hover and focus states for all interactive elements on the page<br>
 
 *<h1>Feito com</h1>Built with*
 
